@@ -1,6 +1,6 @@
 import React from "react";
 import Display from "./components/Display.js";
-// import Dashboard from "./components/Dashboard.js";
+import Dashboard from "./components/Dashboard.js";
 import "./App.css";
 
 class App extends React.Component {
@@ -16,7 +16,7 @@ class App extends React.Component {
         <header>
           {/* <p>App running?</p> */}
           <Display />
-          {/* <Dashboard /> */}
+          <Dashboard />
         </header>
       </div>
     );
